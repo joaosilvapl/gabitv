@@ -53,6 +53,8 @@ namespace GabiTV
 
             this.Image.Source = image;
 
+            this.PositionTextBlock.Text = $"Photo {this.MainPageViewModel.GetCurrentPhotoPosition()}";
+
             this.ImageLoadingTextBlock.Visibility = Visibility.Collapsed;
         }
     }

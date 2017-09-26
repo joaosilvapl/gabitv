@@ -45,7 +45,7 @@
             <Button Grid.Column="2" Grid.Row="1" x:Name="NextButton" HorizontalAlignment="Right"  VerticalAlignment="Center" Click="NextButton_OnClick">
                 <Image Source="Assets/Next.png"/>
             </Button>
-            <TextBlock Grid.Column="1" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" Text="Photo #333 of 1000" />
+            <TextBlock Name="PositionTextBlock" Grid.Column="1" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" Text="Photo 333" />
         </Grid>
 
     </Grid>

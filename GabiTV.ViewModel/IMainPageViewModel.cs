@@ -9,5 +9,6 @@ namespace GabiTV.ViewModel
         Task<BitmapImage> GetPhoto();
         void MoveToNextPhoto();
         void MoveToPreviousPhoto();
+        int GetCurrentPhotoPosition();
     }
 }

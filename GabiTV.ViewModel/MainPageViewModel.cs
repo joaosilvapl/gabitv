@@ -44,6 +44,11 @@ namespace GabiTV.ViewModel
             }
         }
 
+        public int GetCurrentPhotoPosition()
+        {
+            return this._currentPhotoIndex + 1;
+        }
+
         private async Task<BitmapImage> GetPhoto(int index)
         {
             //TODO: add caching, memory management, move to dedicated class
