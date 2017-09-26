@@ -1,0 +1,1 @@
+Configure data access settings on the GabiTV.DataAccess.Settings class
